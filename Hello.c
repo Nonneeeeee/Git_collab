@@ -6,7 +6,7 @@ int main(){
     printf("Hello, Git collabaration!\n");
     return 0;
 }
-
+// Print a greeting message for the specified user
 int greeting(const char *name)
 {
 printf("Hello, %s!\n", name);
