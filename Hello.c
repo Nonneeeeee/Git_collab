@@ -25,3 +25,15 @@ int checkin(const char *name)
     printf("%s are checked in\n", name);
     return 0;
 }
+// Print a greeting message for the specified user
+int greeting(const char *name)
+{
+    printf("Hello, %s!\n", name);
+    return 0;
+}
+
+int farewell(const char *name)
+{
+    printf("Goodbye, %s!\n", name);
+    return 0;
+}
